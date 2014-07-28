@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+    <allowoverlay>no</allowoverlay>
+    <coordinates>
+        <system>1</system>
+        <posx>0</posx>
+        <posy>0</posy>
+    </coordinates>
+    <controls>
+		<control type="image" id="1">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+            <texture>grayscale-superman-logo2.jpg</texture>
+            <fadetime>500</fadetime>
+            <colordiffuse>22FFFFFF</colordiffuse>
+		</control>
+		
+		<control type="label" id="2000">
+			<posx>50</posx>
+			<posy>100</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="2001">
+			<posx>50</posx>
+			<posy>150</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="2002">
+			<posx>50</posx>
+			<posy>200</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="2003">
+			<posx>50</posx>
+			<posy>250</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="2004">
+			<posx>50</posx>
+			<posy>300</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="2005">
+			<posx>50</posx>
+			<posy>350</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="2006">
+			<posx>50</posx>
+			<posy>400</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="2007">
+			<posx>50</posx>
+			<posy>450</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		
+		<control type="label" id="3000">
+			<posx>50</posx>
+			<posy>100</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>yellow</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="3001">
+			<posx>50</posx>
+			<posy>150</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>yellow</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="3002">
+			<posx>50</posx>
+			<posy>200</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>yellow</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="3003">
+			<posx>50</posx>
+			<posy>250</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>yellow</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="3004">
+			<posx>50</posx>
+			<posy>300</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>yellow</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="3005">
+			<posx>50</posx>
+			<posy>350</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>yellow</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="3006">
+			<posx>50</posx>
+			<posy>400</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>yellow</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		<control type="label" id="3007">
+			<posx>50</posx>
+			<posy>450</posy>
+			<width>500</width>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>yellow</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+    </controls>
+</window>

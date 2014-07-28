@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+    <allowoverlay>no</allowoverlay>
+    <coordinates>
+        <system>1</system>
+        <posx>0</posx>
+        <posy>0</posy>
+		<defaultcontrol always="true">1001</defaultcontrol>
+    </coordinates>
+    <controls>
+		<control type="image" id="1">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1280</width>
+			<height>720</height>
+            <texture>grayscale-superman-logo2.jpg</texture>
+            <fadetime>500</fadetime>
+            <colordiffuse>22FFFFFF</colordiffuse>
+		</control>
+		
+		<control type="label" id="2000">
+			<posx>10</posx>
+			<posy>0</posy>
+			<width>500</width>
+			<label>Live Channel Editor</label>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font35_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		
+		<control type="label" id="2000">
+			<posx>30</posx>
+			<posy>60</posy>
+			<width>500</width>
+			<label>Details:</label>
+			<visible>true</visible>
+			<align>left</align>
+			<scroll>false</scroll>
+			<font>font24_title</font>
+			<textcolor>white</textcolor>
+			<shadowcolor>ff555555</shadowcolor>
+		</control>
+		
+		<control type="group" id="900">
+			<posx>60</posx>
+			<posy>90</posy>
+			<control type="label" id="901">
+				<description>Rule Field label</description>
+				<width>125</width>
+				<height>40</height>
+				<font>font13</font>
+				<label>Name:</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="edit" id="902">
+				<posx>125</posx>
+			    <top>0</top>
+			    <width>145</width>
+			    <height>40</height>
+				<hinttext>Channel Name</hinttext>
+				<font>font13</font>
+				<aligny>center</aligny>
+				<textoffsetx>0</textoffsetx>
+				<textcolor>FFFFFFFF</textcolor>
+				<disabledcolor>FF000000</disabledcolor>
+				<invalidcolor>FFFFFFFF</invalidcolor>
+				<texturefocus></texturefocus>
+				<texturenofocus></texturenofocus>
+				<pulseonselect>no</pulseonselect>
+				<ondown>1001</ondown>
+			</control>
+		</control>
+		
+	
+		<control type="group" id="1000">
+			<posx>60</posx>
+			<posy>120</posy>
+			<control type="label" id="1004">
+				<description>Rule Field label</description>
+				<width>125</width>
+				<height>40</height>
+				<font>font13</font>
+				<label>Channel:</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label" id="1003">
+				<description>Rule Field label</description>
+				<left>125</left>
+				<width>100</width>
+				<height>40</height>
+				<font>font13</font>
+				<label>Options</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="button" id="1001">
+				<left>225</left>
+				<top>10</top>
+				<width>20</width>
+				<height>20</height>
+				<font>font13</font>
+				<aligny>center</aligny>
+				<invalidcolor>invalid</invalidcolor>
+				<texturefocus>toggledown-focus.png</texturefocus>
+				<texturenofocus>toggledown.png</texturenofocus>
+				<label>-</label>
+				<onup>902</onup>
+				<onleft>1001</onleft>
+				<onright>1002</onright>
+				<ondown>9001</ondown>
+			</control>
+			<control type="button" id="1002">
+				<description>Value Button</description>
+				<left>250</left>
+				<top>10</top>
+				<width>20</width>
+				<height>20</height>
+				<font>font13</font>
+				<aligny>center</aligny>
+				<invalidcolor>invalid</invalidcolor>
+				<texturefocus>toggleup-focus.png</texturefocus>
+				<texturenofocus>toggleup.png</texturenofocus>
+				<label>-</label>
+				<onup>902</onup>
+				<onleft>1001</onleft>
+				<onright>1002</onright>
+				<ondown>9001</ondown>
+			</control>
+		</control>
+		
+		<control type="button" id="9000">
+			  <bottom>10</bottom>
+			  <left>30</left>
+			  <width>150</width>
+			  <height>40</height>
+			  <visible>true</visible>
+			  <colordiffuse>FFFFFFFF</colordiffuse>
+			  <label>Cancel</label>
+			  <font>font13</font>
+			  <textcolor>FFFFFFFF</textcolor>
+			  <focusedcolor>FFFFFFFF</focusedcolor>
+			  <disabledcolor>80FFFFFF</disabledcolor>
+			  <invalidcolor>FFFFFFFF</invalidcolor>
+			  <align>center</align>
+			  <aligny>center</aligny>
+			  <onup>1001</onup>
+			  <onright>9001</onright>
+		</control>
+		
+		<control type="button" id="9001">
+			  <bottom>10</bottom>
+			  <left>190</left>
+			  <width>150</width>
+			  <height>40</height>
+			  <visible>true</visible>
+			  <colordiffuse>FFFFFFFF</colordiffuse>
+			  <label>Submit</label>
+			  <font>font13</font>
+			  <textcolor>FFFFFFFF</textcolor>
+			  <focusedcolor>FFFFFFFF</focusedcolor>
+			  <disabledcolor>80FFFFFF</disabledcolor>
+			  <invalidcolor>FFFFFFFF</invalidcolor>
+			  <align>center</align>
+			  <aligny>center</aligny>
+			  <onup>1001</onup>
+			  <onleft>9000</onleft>
+		</control>
+		
+    </controls>
+</window>
